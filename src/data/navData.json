@@ -4,20 +4,24 @@
     "url": "/"
   },
   {
-    "key": "About Us",
-    "url": "/about/"
+    "key": "About",
+    "url": "/about"
   },
   {
-    "key": "Projects",
-    "url": "/projects/"
-  },
-  {
-    "key": "Reviews",
-    "url": "/reviews/"
+    "key": "Services",
+    "url": "#",
+    "children": [
+      { "key": "Roof Installation", "url": "/services/roof-installation" },
+      { "key": "Roof Repairs", "url": "/services/roof-repairs" },
+      { "key": "Gutter Cleaning", "url": "/services/gutter-cleaning" }
+    ]
   },
   {
     "key": "Blog",
-    "url": "/blog/",
-    "children": []
+    "url": "/blog"
+  },
+  {
+    "key": "Contact",
+    "url": "/contact"
   }
 ]
