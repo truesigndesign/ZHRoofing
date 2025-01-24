@@ -16,17 +16,17 @@ import CTA from "@components/CTA.astro";
     <picture>
       <source
         media="(max-width: 600px)"
-        srcset="/assets/images/cabinets2-m.jpg"
+        srcset="/assets/images/drone-roof.jpg"
       />
       <source
         media="(min-width: 601px)"
-        srcset="/assets/images/cabinets2.jpg"
+        srcset="/assets/images/drone-roof.jpg"
       />
       <img
         aria-hidden="true"
         decoding="async"
-        src="/assets/images/cabinets2.jpg"
-        alt="kitchen cabinets"
+        src="/assets/images/drone-roof.jpg"
+        alt="drone roof"
         loading="eager"
         width="2500"
         height="1667"
@@ -46,14 +46,14 @@ import CTA from "@components/CTA.astro";
       <!-- First Image -->
       <picture class="cs-picture">
         <!--Mobile Image-->
-        <source media="(max-width: 600px)" srcset="https://images.unsplash.com/photo-1633597469916-b34993ffa004?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        <source media="(max-width: 600px)" srcset="/assets/images/gutter-cleaning-1.jpg">
         <!--Tablet and above Image-->
-        <source media="(min-width: 601px)" srcset="/s">
+        <source media="(min-width: 601px)" srcset="/assets/images/gutter-cleaning-1.jpg">
         <img
           loading="lazy"
           decoding="async"
-          src="https://images.unsplash.com/photo-1633597469916-b34993ffa004?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-          alt="golf coaching"
+          src="/assets/images/gutter-cleaning-1.jpg"
+          alt="gutter cleaning"
           width="630"
           height="775"
         >
@@ -62,13 +62,13 @@ import CTA from "@components/CTA.astro";
       <!-- Second Image -->
       <picture class="cs-picture">
         <!--Mobile Image-->
-        <source media="(max-width: 600px)" srcset="https://images.unsplash.com/photo-1633597469916-b34993ffa004?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        <source media="(max-width: 600px)" srcset="/assets/images/gutter-close.jpg">
         <!--Tablet and above Image-->
-        <source media="(min-width: 601px)" srcset="https://images.unsplash.com/photo-1633597468456-d11ea13ede88?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        <source media="(min-width: 601px)" srcset="/assets/images/gutter-close.jpg">
         <img
           loading="lazy"
           decoding="async"
-          src="https://images.unsplash.com/photo-1633597469916-b34993ffa004?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          src="/assets/images/gutter-close.jpg"
           alt="golf coaching"
           width="630"
           height="775"
@@ -78,14 +78,14 @@ import CTA from "@components/CTA.astro";
        <!-- Second Image -->
        <picture class="cs-picture">
         <!--Mobile Image-->
-        <source media="(max-width: 600px)" srcset="https://images.unsplash.com/photo-1633597469916-b34993ffa004?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        <source media="(max-width: 600px)" srcset="/assets/images/clean-gutter.jpg">
         <!--Tablet and above Image-->
-        <source media="(min-width: 601px)" srcset="https://images.unsplash.com/photo-1633597470203-77c0986ecc4d?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        <source media="(min-width: 601px)" srcset="/assets/images/clean-gutter.jpg">
         <img
           loading="lazy"
           decoding="async"
-          src="https://images.unsplash.com/photo-1633597469916-b34993ffa004?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-          alt="golf coaching"
+          src="/assets/images/clean-gutter.jpg"
+          alt="clean gutter"
           width="630"
           height="775"
         >
@@ -197,7 +197,7 @@ import CTA from "@components/CTA.astro";
     #sbs-r-870 .cs-picture {
   width: 100%; /* Full width of the parent container */
   max-width: 39.375rem; /* Maximum width (e.g., 630px) */
-  height: 39.375rem; /* Set height equal to the width to create a square */
+  max-height: 54rem; /* Set height equal to the width to create a square */
   box-shadow: 0px 2.8px 42px rgba(0, 0, 0, 0.16);
   border-radius: 5%; /* Fully rounded corners, turning it into a circle */
   overflow: hidden;

@@ -21,6 +21,10 @@
     "url": "/blog"
   },
   {
+    "key": "Reviews",
+    "url": "/reviews"
+  },
+  {
     "key": "Contact",
     "url": "/contact"
   }
