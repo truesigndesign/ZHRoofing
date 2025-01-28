@@ -300,12 +300,15 @@ import CTA from "@components/CTA.astro";
       }
   
       #sbs-r-870 .cs-images-wrapper {
-          display: flex;
-          flex-direction: column; /* Stack images vertically */
-          width: 47%; /* Ensure images wrapper occupies the same space as before */
-          gap: 5.6rem; /* Maintain spacing between stacked images */
-          align-self: flex-start; /* Ensure the images wrapper starts at the top */
-      }
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Full container width */
+    max-width: 39.375rem; /* Matches the max-width of your .cs-picture */
+    gap: 5.6rem; /* Maintain spacing between images */
+    min-height: calc((1036px + 905px + 903px) + (2 * 5.6rem)); /* Total height of images + gap */
+    box-sizing: border-box; /* Prevent any overflow issues */
+}
+
   
       #sbs-r-870 .cs-content {
           width: 53%; /* Retain content width */
