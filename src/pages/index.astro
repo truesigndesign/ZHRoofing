@@ -27,7 +27,7 @@ import CTA from "@components/CTA.astro";
 
     <!-- Background Image, there's a background image in the CSS for the parallax effect you'll need to change as well if you swap out our images -->
     <picture class="cs-background">
-        <source media="(max-width: 600px)" srcset="/assets/images/background-cr-mobile.jpg">
+        <source media="(max-width: 600px)" srcset="/assets/images/background-cr-mobile-2.jpg">
         <source media="(min-width: 601px)" srcset="/assets/images/background-cr.jpg">
         <img decoding="async" src="/assets/images/background-cr.jpg" alt="restaurant" width="2250" height="1500" aria-hidden="true">
     </picture>
@@ -40,7 +40,7 @@ import CTA from "@components/CTA.astro";
 <--- -------------------------- -*/
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
-  #hero-1950 {
+    #hero-1950 {
     height: 100vh;
     /* 200px - 300px top */
     /* 60px - 100px bottom */
@@ -49,7 +49,7 @@ import CTA from "@components/CTA.astro";
     align-items: flex-end;
     position: relative;
     z-index: 1;
-  }
+    }
   #hero-1950 .cs-container {
     width: 100%;
     max-width: 85.5625rem;
@@ -131,7 +131,7 @@ import CTA from "@components/CTA.astro";
     content: '';
     width: 100%;
     height: 100%;
-    background: linear-gradient(180deg, rgba(26, 26, 26, 0.86) 10.79%, rgba(26, 26, 26, 0) 48.32%, rgba(26, 26, 26, 0.86) 82.84%);
+    background: linear-gradient(180deg, rgba(26, 26, 26, 0.86) 10.79%, rgba(26, 26, 26, 0) 48.32%, rgba(26, 26, 26, 0.86) 70.84%);
     /* prevents the cursor from interacting with it */
     pointer-events: none;
     display: block;
